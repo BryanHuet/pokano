@@ -1,0 +1,27 @@
+<project name="Pokano" default="main" basedir=".">
+
+    <property name="Main-Class" value="src.Main"/>
+    <property name="ClassPath" value="build/classes;dist/jar/json-simple-1.1.1.jar"/>
+    <target name="clean">
+      <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+      <mkdir dir="build/classes"/>
+      <javac srcdir="src" destdir="build/classes" classpath="${ClassPath}" includeantruntime="false"/>
+    </target>
+
+    <target name="run" depends="compile">
+      <java classname="${Main-Class}" classpath="${ClassPath}" fork="true"/>
+    </target>
+
+    <target name="javadoc">
+        <javadoc sourcepath="src/model" destdir="doc">
+            <fileset dir="src" defaultexcludes="yes">
+                <include name="**"/>
+            </fileset>
+        </javadoc>
+    </target>
+
+    <target name="main" depends="clean,run"/>
+  </project>

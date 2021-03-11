@@ -1,0 +1,91 @@
+{
+  "Carré de Coeur":
+    {
+      "tailleY":25,
+      "tailleX":25,
+      "nomJoueur":"MOI",
+      "plateau":
+          [
+            {
+              "positionX":16,
+              "positionY":11,
+              "classe":"♥",
+              "largeur":7,
+              "hauteur":6
+            },
+            {
+              "positionX":6,
+              "positionY":12,
+              "classe":"♥",
+              "largeur":7,
+              "hauteur":6
+            },
+            {
+              "positionX":20,
+              "positionY":5,
+              "classe":"♥",
+              "largeur":7,
+              "hauteur":6
+            },
+            {
+              "positionX":9,
+              "positionY":20,
+              "classe":"♥",
+              "largeur":7,
+              "hauteur":6
+            }
+          ]
+    },
+  "Don Angelo":
+    {
+      "tailleY":25,
+      "tailleX":25,
+      "nomJoueur":"MOI",
+      "plateau":
+              [
+                {
+                  "positionX": 12,
+                  "positionY": 5,
+                  "classe": "E",
+                  "largeur": 7,
+                  "hauteur": 9,
+                  "rotate": -1
+                },
+                {
+                  "positionX": 12,
+                  "positionY": 13,
+                  "classe": "A",
+                  "largeur": 3,
+                  "hauteur": 4
+                },
+                {
+                  "positionX": 12,
+                  "positionY": 17,
+                  "classe": "F",
+                  "largeur": 3,
+                  "hauteur": 4
+                },
+                {
+                  "positionX": 12,
+                  "positionY": 20,
+                  "classe": "I",
+                  "largeur": 1,
+                  "hauteur": 5
+                },
+                {
+                  "positionX": 12,
+                  "positionY": 23,
+                  "classe": "A",
+                  "largeur": 3,
+                  "hauteur": 4
+                },
+                {
+                  "positionX": 7,
+                  "positionY": 20,
+                  "classe": "X",
+                  "largeur": 3,
+                  "hauteur": 3
+                }
+              ]
+    }
+}
